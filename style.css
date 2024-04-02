@@ -1,20 +1,45 @@
-body{
-   margin:0;
-    width: 100%;
-    height: 100%;
-    
-}
-#container{
-    margin:0, auto;
-    padding: 7.5%, 7.5%;
-}
-#hero-container, #header{
-    background-color: #1F2937;
-    color:#F9FAF8;
-    width: 100%;
-    margin:0 auto;
-    display: flex;
-    
-    
+html {
+    box-sizing: border-box;
 }
 
+* {
+    box-sizing: inherit;
+
+}
+
+body {
+    margin: 0, auto;
+    background-color: rgb(182, 107, 182);
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* NavBar Css */
+#nav-bar {
+    font-size: 22px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.nav-logo {
+    margin-left: 50px;
+}
+
+#nav-bar div {
+    flex: 1;
+}
